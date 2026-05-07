@@ -1,0 +1,22 @@
+name: flutter_campus_shuttle_app
+description: Flutter-Campus-Shuttle-App, a Flutter campus transport prototype with role-based interfaces, OpenStreetMap route playback, parking slot selection, and booking management.
+publish_to: 'none'
+version: 1.2.0+3
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_map: ^8.2.2
+  latlong2: ^0.9.1
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
